@@ -4,6 +4,10 @@ This is intended to implement a simple command-line LLRP configuration tool for 
 
 LLRP is a part of ANSI E1.33, this is based off the standard dated 9/02/2019.
 
+# Current Status
+
+Not really built out yet.
+
 ## Supported Commands
 
 - DISCOVERY
