@@ -19,3 +19,19 @@ Not really built out yet.
 - IPV4_CURRENT_ADDRESS
 - IPV4_STATIC_ADDRESS
 - IPV4_DEFAULT_ROUTE
+
+## llrp_config commands
+
+li : list computer IP interfaces
+si : select computer IP interface 
+d : run discovery
+l # [label] : get/set device label (don't specify a label to just get)
+factory # : reset to factory defaults
+i # [on/off] : get identify status, or turn on/off
+reset # : reset device
+dhcp # [on/off] : get dhcp status, or turn on/off
+c # : get current IP address
+setip # [dotted quad] [netmask] : get static IP address, or set it
+gw # [dotted quad] : set gateway address
+p : print device table
+r : refresh device table (re-runs discovery, then gets parameters and prints the table)
